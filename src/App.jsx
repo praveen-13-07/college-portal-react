@@ -6,7 +6,7 @@ import ApplyJobPage from './pages/ApplyJobPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/college-portal-react">
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/student" element={<StudentDashboard />} />
